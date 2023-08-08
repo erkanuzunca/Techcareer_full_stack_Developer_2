@@ -21,7 +21,7 @@ height : 25px;
 height: auto;
 
 }
-a{
+ /* a{
     color:yellow;
     color:#747;
     color:rgb(21, 141, 47,0,5);
@@ -38,15 +38,15 @@ a:hover{
     transition:3s all;
     border-radius:0;
 
-}
-img{
+} */
+/* img{
     width:100%;
     height: auto;
 }
 img:hover{
     opacity: 0.8;
 
-}
+} */
 ul{
     list-style-type: none;
-}
+} 
