@@ -147,11 +147,11 @@ console.log(Math.abs(-5.9));
 // 2-yuvarlama yapsın  6.0
 console.log(Math.ceil(Math.abs(-5.9)));
 // 3-karesini alsın 36.00
-console.log(Math.pow(Math.ceil(Math.abs(-5.9))));
+console.log(Math.pow(Math.round(Math.abs(-5.9))));
 // 4-karekök alsın 6.0
-console.log(Math.sqrt(Math.ceil(Math.abs(-5.9))));
+console.log(Math.sqrt(Math.round(Math.abs(-5.9))));
 // 5-yuvarlama yapsın 6.0
-console.log(Math.round(Math.ceil(Math.abs(-5.9))));
+console.log(Math.round(Math.round(Math.abs(-5.9))));
 // 6-)çıkan sonucu 5 bölsün 6/5=1
 let yeni=Math.round(Math.ceil(Math.abs(-5.9)))/5;
 console.log(yeni);
