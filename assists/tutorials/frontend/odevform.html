@@ -11,14 +11,78 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
-    <!-- Css dosyası tanımlandı -->
+ <!-- fontawesome -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+ integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+ crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- odevfrom.css dosyası tanımlandı -->
     <link rel="stylesheet" href="odevform.css">
 
 </head>
 
 <body>
 
+  <div class="container">
+    <div class="form-header">
+      <h3 class="form-title">Register </h3>
+      <span class="form-information">Fill out this form <br><br></span>
+    </div>
 
+    <div class="form-content">
+      <div class="first_name">
+        <input
+          type="text"
+          class="input input-without-icon"
+          name=""
+          id=""
+          placeholder="First Name"
+          title="First Name*"
+        />
+        <input
+          type="text"
+          class="input input-without-icon"
+          name=""
+          id=""
+          placeholder="Last Name"
+          title="Last Name*"
+        />
+      </div>
+
+      <i class="input-icon fa-solid fa-user"></i>
+      <input type="text" class="input" placeholder="Username" />
+      <i class="input-icon fa-solid fa-envelope"></i>
+      <input
+        type="email"
+        class="input"
+        name=""
+        id=""
+        placeholder="E-mail Address"
+        title="E-mail Address*"
+      />
+      
+      <i class="input-icon fa-solid fa-key"></i>
+      <input
+        type="password"
+        class="input"
+        name=""
+        id=""
+        placeholder="Password"
+        title="Password*"
+      />
+
+      <div class="checkbox">
+        <input class="form-check-input" type="checkbox" value="" id="" />
+        <label class="form-check-label term-text" for="">
+          &nbsp I agree with the <strong>Terms and Conditions</strong> and the
+          <b>Privacy Policy.</b>
+        </label>
+      </div>
+
+      <button class="submit">Create Account</button>
+    </div>
+  </div>
 
  
   <!-- Bootstrap JavaScript Libraries -->
